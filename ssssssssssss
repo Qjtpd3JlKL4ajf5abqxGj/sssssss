@@ -1,4 +1,3 @@
--- This User Interface Library is brought to you by Solaris Software.
 local Solaris = Instance.new("ScreenGui")
 Solaris.Name = "Vanity"
 Solaris.Parent = game.CoreGui
@@ -162,7 +161,7 @@ local SolarisLib = {
 
 
 local MainUI = game:GetObjects("rbxassetid://7835727566")[1]
-print("SolarisLib Loaded!")
+print("Vanity Loaded")
 local function MakeDraggable(topbarobject, object) 
     pcall(function()
 		local dragging, dragInput, mousePos, framePos = false
