@@ -253,7 +253,7 @@ function SolarisLib:New(Config)
     local MusicBtn = MenuBtnPreset:Clone()
     MusicBtn.Parent = MFrame.TopBar.ButtonHolder.MenuBtn.MenuFrame
     MusicBtn.Position = UDim2.new(0,0,0,5)
-    MusicBtn.Text = "Music"
+    MusicBtn.Text = ""
     MusicBtn.MouseEnter:Connect(function() TweenService:Create(MusicBtn,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0}):Play() end)
     MusicBtn.MouseLeave:Connect(function() TweenService:Create(MusicBtn,TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),{TextTransparency = 0.4}):Play() end)
     local SettingsBtn = MenuBtnPreset:Clone()
